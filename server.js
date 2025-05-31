@@ -38,12 +38,12 @@ app.use(express.static(__dirname, {
     }
 }));
 
-// database connection with promise wrapper
+// database connection with promise wrapper (add your database info here)
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'r0ny_mysql',
-    database: 'ecommerceplatform_v2'
+    host: 'YOUR_DB_HOST',
+    user: 'YOUR_DB_USER',
+    password: 'YOUR_DB_PASSWORD',
+    database: 'YOUR_DB_NAME'
 }).promise();
 
 async function initializeDatabase() {
