@@ -105,7 +105,7 @@ shopease/
 
 ---
 
-## **Screenshots**
+## User Interface
 
 ### **Login/SignUp UI**
 
